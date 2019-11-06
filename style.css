@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+    text-decoration: none;
+}
+header{
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    
+}
+.logo{
+    max-width: 10%;
+}
+.menu{
+    max-width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.menuLink{
+    color: #fff;
+    font-weight: bold;
+    padding: 7px;
+}
+.search, .notification{
+    max-width: 5%;
+}
+.blocksearch{
+    max-width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
