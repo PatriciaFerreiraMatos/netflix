@@ -36,3 +36,14 @@ header{
     justify-content: space-around;
     color: #fff;
 }
+.blockinput{
+    display: flex;
+    
+
+}
+input{
+    display: none;
+    border: none;
+    outline: none;
+    background-color: #000;
+}
