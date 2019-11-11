@@ -11,6 +11,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: #000;
+    position: fixed;
     
 }
 .logo{
@@ -26,24 +27,34 @@ header{
     font-weight: bold;
     padding: 7px;
 }
-.search, .notification{
-    max-width: 5%;
+.search{
+    max-width: 12%;
 }
 .blocksearch{
     max-width: 30%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
     color: #fff;
 }
 .blockinput{
     display: flex;
-    
-
 }
 input{
     display: none;
     border: none;
     outline: none;
     background-color: #000;
+}
+.blockperfil{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.linkperfil{
+    color: #fff;
+}
+.notification{
+    max-width: 35%;
+    text-align: center;
 }
